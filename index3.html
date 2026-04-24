@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width=device-width" initial-scale="1.0">
+        <title>Fundamentos de tecnologia Web</title>
+        <meta name="descripcion" content = "CURSO DE FUNDAMENTOS DE TECNOLOGIA WEB">
+        <!--Open Graph-->
+        <meta property = "og.title" content = "Curso de Tecnologias Web">
+        <meta property="og.description" content="Aprende HTML desde cero">
+        <meta property= "org.image" content="logo.png">
+    </head>
+    <body>
+       <header>
+        <h1>FUNDAMENTOS DE TECNOLOGIA WEB</h1>  
+        <p> MI pan sususu, mi pan</p>
+
+       </header> 
+       <nav>
+        <ul>
+            <li> <a href="http:www.uss.edu.pe" target="_blank">Inicio </a></li>
+            <li> <a href= "index.html">Temas</a></li>
+            <li><a href="#tema">Contacto</a></li>
+        </ul>
+
+       </nav>
+       <main>
+        <section>
+            <h2>Descripcion del curso</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+            Eum dignissimos, eligendi, minima inventore magnam et est dolorem, <br>
+            dolore beatae amet hic placeat sequi quae commodi iure ad aut nam voluptates? <br>
+            <img src="logo.png" width="200" alt="Imagen que representa a un gatito">
+        </section>
+        <section>
+            <h2> <a id="tema">Temas del Curso</a></h2>
+            <ul> 
+                <li>HTML
+                    <ul> 
+                        <li> Contenido</li>
+                        <li>Etiqueta</li>
+                    </ul>
+                </li>
+                <li> CSS</li>
+                <li> JavaScrit</li>
+            </ul>
+            <h3>Metodologia de estudio</h3>
+            <ol>
+                <li>Comprender la metodologia</li>
+                <li>Practicar el codigo</li>
+                <li>Desarrollar el proyecto</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Tabla de estudiantes</h2>
+            <table border="2">
+                <caption>Listado de estudiantes</caption>
+                <thead> 
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Curso</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juana</td>
+                        <td>Soldadura</td>
+                    </tr>
+                    <tr>
+                        <td>Faraon</td>
+                        <td>Musica</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Formulario de registro</h2>
+            <form action="registro.php" method="GET">
+                <label for="Nombre">Nombre: </label><br>
+                <input type= "text" id="Nombre" required placeholder="Ingrese nombre"><br>
+
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" required><br>
+
+                <label for="clave">Contraseña:</label><br>
+                <input type="password" id="clave" required><br>
+
+                <label for="Cursos">Cursos:</label><br>
+                <select id="Cursos" required><br>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScrit</option>
+                </select> <br>
+                <button type="submit">Registrar</button> <br>
+            </form>
+        </section>
+       </main>
+       <footer>    
+        <br> @2026 Universidad Nacional Catolica "Sideral Lujan Carrión"<br>
+        Perú - Lima- San Isidro<br>   
+       </footer>
+    </body>
+</html>
