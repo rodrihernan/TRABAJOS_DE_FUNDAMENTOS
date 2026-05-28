@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPETITIVAS(BUCLES)</title>
+</head>
+<body>
+    <script>
+        let num = parseInt(prompt ("Ingrese un numero:"));
+        document.write("<h3>Tabla de multiplicar del: " + num + "</h3>");
+        document.write("<table border='2'>");
+            document.write("<tr><th>Operación</th><th>Resultado</th></tr>");
+        for (let i = 1; i <= 12; i++){
+            document.write("<tr>");
+            document.write("<td>" + num + " x " + i + " = " + "</td>" + "<td>"  +num * i + "</td>");
+            document.write("</tr>")
+        }
+        document.write("</table>");
+
+    </script>
+
+</body>
+</html>

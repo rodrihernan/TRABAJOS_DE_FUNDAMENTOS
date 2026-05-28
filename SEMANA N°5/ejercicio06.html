@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANIPULACIÓN DOM</title>
+</head>
+<body>
+    <h1 id="titulo">FUNDAMENTOS DE TECNOLOGIAS WEB</h1>
+    <button onclick="modificar()"> MODIFICAR</button>
+    <div id="contenido"> </div>
+    <script> 
+        function modificar() {
+            document.getElementById("titulo").innerHTML= "Universodas Sideral Carrión";
+            let parrafo = document.createElement("p");
+            parrafo.textContent = "JAEL QUISPI MAMANI";
+            document.getElementById("contenido").appendChild(parrafo);
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(48, 45, 228, 0.445);
+}
+header{
+    background-color: rgba(32, 18, 219, 0.76);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+section{
+    padding: 40px;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color: rgba(32, 18, 219, 0.76);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(31, 18, 219);
+}
+footer{
+    background-color: rgba(32, 18, 219, 0.76);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

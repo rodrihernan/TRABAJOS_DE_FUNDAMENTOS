@@ -12,7 +12,7 @@
     </head>
     <body>
        <header>
-        <h1>FUNDAMENTOS DE TECNOLOGIA WEB</h1>  
+        <h1>FUNDAMENTOS DE TECNOLOGIA WEB</h1>
         <p> MI pan sususu, mi pan</p>
 
        </header> 

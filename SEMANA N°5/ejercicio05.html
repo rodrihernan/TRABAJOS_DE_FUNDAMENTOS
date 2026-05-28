@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS</title>
+</head>
+<body>
+    <h2= id="titulo"> FUNDAMENTOS DE TECNOLIGIAS WEB</h2>
+    <button id ="boton"> Cambiar el color</button> 
+    <script>
+        let boton = document.getElementById("boton");
+        boton.addEventListener("click", function() {
+            document.getElementById("titulo").style.color = "red";
+            alert("Color modificado a rojo");
+        });
+    </script>
+</body>
+</html>

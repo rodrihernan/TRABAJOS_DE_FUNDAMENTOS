@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    <script> 
+        function areaRectangulo(base,altura) {
+            return base*altura;
+        }
+        function areaTriangulo (base, altura){
+            return (base*altura)/2;
+        }
+
+        let base = parseFloat(prompt("Ingrese la base:"));
+        let altura = parseFloat(prompt("Ingrese la altura:"));
+        let area = areaRectangulo(base, altura);
+        document.write("<h3>El área del rectángulo con base " + base + " y altura " + altura + " es: " + areaRectangulo(base, altura).toFixed(2) + "</h3>");
+        document.write("<h3>El área del triángulo con base " + base + " y altura " + altura + " es: " + areaTriangulo(base, altura).toFixed(2) + "</h3>");
+    </script>
+
+</body>
+</html>
