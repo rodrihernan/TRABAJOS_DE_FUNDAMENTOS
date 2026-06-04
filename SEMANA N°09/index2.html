@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Gatos NaNu</title>
+</head>
+
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">
+                🐱 Gatos NaNu
+            </a>
+
+            <!-- Botón responsive -->
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="navbar">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            🏠 Principal
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            😺 Adopción
+                        </a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown">
+
+                            🐾 Razas
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Siamés
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Persa
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Angora
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">
+                            📖 Información
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Buscador -->
+                <form class="d-flex">
+
+                    <input class="form-control me-2"
+                        type="search"
+                        placeholder="Buscar gato...">
+
+                    <button class="btn btn-warning">
+                        Buscar
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container mt-4">
+
+        <div class="row g-4">
+
+            <!-- FORMULARIO -->
+            <div class="col-sm-12 col-md-4">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body">
+
+                        <h3 class="text-center mb-4">
+                            Formulario de adopción
+                        </h3>
+
+                        <!-- Nombre -->
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Nombre
+                            </label>
+
+                            <input type="text"
+                                class="form-control"
+                                placeholder="Ingrese su nombre">
+
+                        </div>
+
+                        <!-- Gato -->
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Gato que desea adoptar
+                            </label>
+
+                            <textarea class="form-control"
+                                rows="3"></textarea>
+
+                        </div>
+
+                        <!-- Mascotas -->
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                N° de mascotas
+                            </label>
+
+                            <input type="number"
+                                class="form-control"
+                                placeholder="Ingrese cantidad">
+
+                        </div>
+
+                        <!-- Botones -->
+                        <div class="d-grid gap-2">
+
+                            <button class="btn btn-primary">
+                                Enviar solicitud
+                            </button>
+
+                            <button class="btn btn-outline-warning">
+                                Limpiar
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABLA -->
+            <div class="col-sm-12 col-md-8">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body">
+
+                        <h3 class="mb-4">
+                            😺 Gatos en adopción
+                        </h3>
+
+                        <table class="table table-hover table-striped align-middle">
+
+                            <thead class="table-primary">
+
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Raza</th>
+                                    <th>Edad</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>Aristóteles</td>
+                                    <td>Siamés</td>
+                                    <td>2 años</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Nemes</td>
+                                    <td>Maine Coon</td>
+                                    <td>3 años</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Felino</td>
+                                    <td>Persa</td>
+                                    <td>1 año</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Max</td>
+                                    <td>Angora</td>
+                                    <td>4 años</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
