@@ -1,0 +1,68 @@
+:root {
+    --color-primario: #ff9800;
+    --color-secundario: #fff3cd;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fff8dc, #ffe0b2);
+}
+
+/* HERO */
+.hero-section {
+    min-height: 90vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1200&auto=format&fit=crop')
+        center/cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+
+    background: rgba(255, 255, 255, 0.75);
+
+    padding: 40px;
+
+    border-radius: 20px;
+}
+
+.hero-content h1 {
+    color: #ff9800;
+}
+
+.hero-content p {
+    color: #333;
+}
+
+.hero-cat {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.cat-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* CARDS */
+.card {
+    border-radius: 20px;
+}
+
+/* BOTONES */
+.btn-warning {
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    margin-top: auto;
+}
