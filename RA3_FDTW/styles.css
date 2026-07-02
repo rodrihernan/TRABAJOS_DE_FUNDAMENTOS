@@ -155,4 +155,19 @@ body {
 footer {
     margin-top: auto;
 }
+@media (max-width: 576px) {
+    .hero-content {
+        padding: 20px; 
+        margin: 0 15px; 
+    }
+
+    .section-title {
+        font-size: 1.3rem; 
+    }
+
+    .hero-cat {
+        width: 150px; 
+        height: 150px;
+    }
+}
 
