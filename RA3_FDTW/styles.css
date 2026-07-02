@@ -1,0 +1,158 @@
+:root {
+    --color-primario: #ff9800;
+    --color-secundario: #fff3cd;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fff8dc, #ffe0b2);
+}
+
+/* HERO */
+.hero-section {
+    min-height: 90vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1200&auto=format&fit=crop')
+        center/cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+
+    background: rgba(255, 255, 255, 0.75);
+
+    padding: 40px;
+
+    border-radius: 20px;
+}
+
+.hero-content h1 {
+    color: #ff9800;
+}
+
+.hero-content p {
+    color: #333;
+}
+
+.hero-cat {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.cat-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* CARDS */
+.card {
+    border-radius: 20px;
+}
+
+/* ── Sección general ── */
+.gatitos-section {
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2c2c2a;
+  margin-bottom: 0.25rem;
+}
+
+.section-sub {
+  font-size: 1rem;
+  color: #6b6b67;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Grid de tarjetas ── */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* ── Tarjeta individual ── */
+.cat-card {
+  background: #ffffff;
+  border: 1px solid #e0dfd6;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Imagen ── */
+.cat-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background-color: #f0efea;
+}
+
+/* ── Info dentro de la tarjeta ── */
+.cat-info {
+  padding: 14px 16px 16px;
+}
+
+.nombre {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c2c2a;
+  margin: 0 0 6px;
+}
+
+.cat-meta {
+  font-size: 0.875rem;
+  color: #6b6b67;
+  margin: 0 0 4px;
+}
+
+/* ── Botón Conocer Mas... ── */
+.conocer-btn {
+  display: block;
+  margin-top: 12px;
+  padding: 9px 0;
+  text-align: center;
+  background-color: #f06542;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.conocer-btn:hover {
+  background-color: #d4532e;
+}
+
+/* BOTONES */
+.btn-warning {
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    margin-top: auto;
+}
+
