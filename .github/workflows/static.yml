@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'RA3_FDTW'
+          path: 'RA4_FDTW'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
